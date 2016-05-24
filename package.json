@@ -1,10 +1,13 @@
 {
   "name": "mcs-core",
   "version": "1.0.0",
-  "description": "Minecraft cloud system",
+  "description": "Minecraft Cloud System",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "install": "cd public && npm install",
+    "start": "node app.js",
+    "typings": "cd public && typings install",
+    "tsc": "cd public && tsc"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/AlexDigital/MCS-Core/issues"
   },
-  "homepage": "https://github.com/AlexDigital/MCS-Core#readme"
+  "homepage": "https://github.com/AlexDigital/MCS-Core#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "mongoose": "^4.4.19",
+    "serve-static": "^1.10.2",
+    "socket.io": "^1.4.6"
+  }
 }
