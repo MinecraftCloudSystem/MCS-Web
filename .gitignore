@@ -1,0 +1,27 @@
+# Created by https://www.gitignore.io
+
+### Node ###
+# Logs
+logs
+*.log
+
+#IntelliJ
+.idea
+
+# Dependency directory
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+node_modules
+
+#MCS Folders
+plugins
+worlds
+release
+release.zip
+secret
+config.json
+build
+build.zip
+configs
+update.zip
+
+out
