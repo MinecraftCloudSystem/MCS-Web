@@ -1,24 +1,17 @@
 {
-  "name": "mcs-core",
-  "version": "1.0.0",
+  "name": "MCS-Web",
+  "version": "2.1.0",
   "description": "Minecraft Cloud System",
-  "main": "app.js",
-  "scripts": {
-    "install": "cd public && npm install",
-    "start": "node app.js",
-    "typings": "cd public && typings install",
-    "tsc": "cd public && tsc"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlexDigital/MCS-Core.git"
+    "url": "git+https://github.com/MinecraftCloudSystem/MCS-Web.git"
   },
-  "author": "MCS team",
+  "author": "MCS",
   "license": "AGPL-3.0",
   "bugs": {
-    "url": "https://github.com/AlexDigital/MCS-Core/issues"
+    "url": "https://github.com/MinecraftCloudSystem/MCS-Web/issues"
   },
-  "homepage": "https://github.com/AlexDigital/MCS-Core#readme",
+  "homepage": "https://www.mcsproject.net",
   "dependencies": {
     "express": "^4.13.4",
     "mongoose": "^4.4.19",
